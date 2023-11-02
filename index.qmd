@@ -1,7 +1,9 @@
-ç---
-title: "warmup-isaac-morris"
+---
+title: "Welcome"
 ---
 
-This is a Quarto website.
+Welcome to my first website. I am creating this using Quarto for CSC 324 at Georgetown College.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+[Click here to learn more about me.](about.qmd)
+
+[Click here to learn more about Quarto websites.](https://quarto.org/docs/websites)

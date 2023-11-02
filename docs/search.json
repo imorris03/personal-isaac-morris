@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "warmup-isaac-morris",
+    "title": "Welcome",
     "section": "",
-    "text": "ç— title: “warmup-isaac-morris”\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Welcome to my first website. I am creating this using Quarto for CSC 324 at Georgetown College.\nClick here to learn more about me.\nClick here to learn more about Quarto websites."
   },
   {
     "objectID": "about.html",

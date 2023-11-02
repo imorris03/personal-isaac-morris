@@ -1,17 +1,20 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "warmup-isaac-morris"
+  title: "isaac morris warmup website"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: articles.qmd
+        text: Articles
 
 format:
   html:
-    theme: cosmo
+    theme: lux
     css: styles.css
     toc: true
 
