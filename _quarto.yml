@@ -4,6 +4,8 @@ project:
 
 website:
   title: "isaac morris warmup website"
+  site-path: "/warmup-isaac-morris/"
+  page-navigation: true
   navbar:
     left:
       - href: index.qmd
@@ -11,12 +13,14 @@ website:
       - about.qmd
       - href: articles.qmd
         text: Articles
+    right: 
+      - icon: github
+        href: https://github.com/imorris03
+      - icon: envelope
+        href: mailto:isaacm@georgetowncollege.edu
 
 format:
   html:
     theme: lux
     css: styles.css
     toc: true
-
-
-
