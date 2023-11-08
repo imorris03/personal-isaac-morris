@@ -13,7 +13,8 @@ Welcome to my first website. I am creating this using Quarto for CSC 324 at Geor
 
 ---
 
-Some Articles I wrote:
+Some articles I wrote:
 
 ::: {#sample-listings}
 :::
+

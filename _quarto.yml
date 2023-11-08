@@ -10,9 +10,11 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
       - href: articles.qmd
         text: Articles
+      - comment.qmd
     right: 
       - icon: github
         href: https://github.com/imorris03
