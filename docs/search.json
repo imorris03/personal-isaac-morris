@@ -9,7 +9,7 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About Me",
+    "title": "Isaac Morris",
     "section": "",
     "text": "Hi, thanks for stopping by.\nMy name is Isaac Morris. I am a christian. I am a web-design and religion double major at Georgetown College. I am apart of Georgetown’s independant honors program; and while here at college, I ran cross country a couple of times. Some fun facts about me: one time I kicked a shark (accidentally) and I also rehabilitated birds of prey at a nature center for a few years.\nMy personal goal is to live the life God intends for me, loving Him and loving others. My secondary goal is to secure a job as a web designer. I hope that this ‘warmup-website,’ which was created for CSC 324 at Georgetown College, can assist me in finding a job in my field of study so that I can achieve these goals."
   },
@@ -67,7 +67,7 @@
     "href": "index.html",
     "title": "Welcome",
     "section": "",
-    "text": "Welcome to my first website. I am creating this using Quarto for CSC 324 at Georgetown College.\nClick here to learn more about me.\n\nSome articles I wrote:\n\n\n\n\n\n\n\n\n\n\nFizzBuzz\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecursion\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my first website. I am creating this using Quarto for CSC 324 at Georgetown College.\nClick here to learn more about me."
   },
   {
     "objectID": "articles.html",
