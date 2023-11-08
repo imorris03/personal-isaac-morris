@@ -15,6 +15,11 @@ website:
       - href: articles.qmd
         text: Articles
       - comment.qmd
+    right: 
+      - icon: github
+        href: https://github.com/imorris03
+      - icon: envelope
+        href: mailto:isaacm@georgetowncollege.edu
 
 format:
   html:

@@ -1,5 +1,12 @@
 [
   {
+    "listing": "/index.html",
+    "items": [
+      "/article_docs/FizzBuzz.html",
+      "/article_docs/Recursion.html"
+    ]
+  },
+  {
     "listing": "/articles.html",
     "items": [
       "/article_docs/FizzBuzz.html",

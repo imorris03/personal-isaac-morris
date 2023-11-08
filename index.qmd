@@ -1,7 +1,20 @@
 ---
 title: "Welcome"
+listing:
+  id: sample-listings
+  contents: article_docs
+  type: grid
+  fields: [image, title]
 ---
 
 Welcome to my first website. I am creating this using Quarto for CSC 324 at Georgetown College.
 
 [Click here to learn more about me.](about.qmd)  
+
+---
+
+Some articles I wrote:
+
+::: {#sample-listings}
+:::
+

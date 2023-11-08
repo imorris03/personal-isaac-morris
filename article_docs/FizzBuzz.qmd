@@ -1,7 +1,6 @@
 ---
 title: "FizzBuzz"
 image: /article_docs/images/FIZZBUZZ.pdf
-back-to-top-navigation: true
 ---
 The following was completed using JavaScript for CSC 324 at Georgetown College. The problem was found in [Eloquent JavaScript](https://eloquentjavascript.net)
 ## Intro

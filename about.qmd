@@ -1,14 +1,15 @@
 ---
-title: "Isaac Morris"
-about:
-    template: trestles
-    image: /images/self_image.pdf
-    links:
-        - icon: github
-          href: https://github.com/imorris03
-        - icon: envelope
-          href: mailto:isaacm@georgetowncollege.edu
+title: "About Me"
 ---
+
+
+<img style="float: right; margin: 0px 0px 15px 15px;" src="images/self_image.pdf" width="400" />
+<!-- 
+credit for the code:
+https://www.inmotionhosting.com/support/website/website-design/align-float-images-css/
+credit for learning to make comments:
+Chat GPT
+-->
 
 Hi, thanks for stopping by.  
 
