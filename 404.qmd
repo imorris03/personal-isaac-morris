@@ -1,6 +1,13 @@
----
-title: "404 Not Found"
----
+<style>
+.center 
+{
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 115% !important;
+}
 
+</style>
 
-404 Not Found
+<img src="/images/404.pdf" class="center">
+
+[Click Here To Go Back To Home](index.qmd)

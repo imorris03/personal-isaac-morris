@@ -1,16 +1,72 @@
 [
   {
+    "objectID": "articles.html",
+    "href": "articles.html",
+    "title": "Articles",
+    "section": "",
+    "text": "These articles showcase some Javascript assignments I have completed for CSC 324 at Georgetown College. They can be found in Eloquent Javascript. They were picked for this website because of unique solutions for the problems.\n\n\n\n\n\n\n\n\n\n\nFizzBuzz\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecursion\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome",
     "section": "",
-    "text": "Welcome to my first website. I am creating this using Quarto for CSC 324 at Georgetown College.\nClick here to learn more about me.\nClick here to learn more about Quarto websites."
+    "text": "Welcome to my first website. I am creating this using Quarto for CSC 324 at Georgetown College.\nClick here to learn more about me.\n\nSome Articles I wrote:\n\n\n\n\n\n\n\n\n\n\nFizzBuzz\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecursion\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "article_docs/Recursion.html",
+    "href": "article_docs/Recursion.html",
+    "title": "Recursion",
+    "section": "",
+    "text": "The following was completed using JavaScript for CSC 324 at Georgetown College."
+  },
+  {
+    "objectID": "article_docs/Recursion.html#intro",
+    "href": "article_docs/Recursion.html#intro",
+    "title": "Recursion",
+    "section": "Intro",
+    "text": "Intro\nHave you ever heard of recursion? A recursive function is simply a function that runs itself. It requires a condition that enables it to stop running, otherwise it becomes an infinite loop (or it will just run forever).\nThe problem I had to solve, found in chapter three of Eloquent Javascript, was to create a function called isEven; isEven needs to take a single parameter (a positive, whole number) and check whether or not it is even."
+  },
+  {
+    "objectID": "article_docs/Recursion.html#the-solution",
+    "href": "article_docs/Recursion.html#the-solution",
+    "title": "Recursion",
+    "section": "The Solution",
+    "text": "The Solution\nHere is my solution to the problem:\nfunction isEven (x) {\n    if (x == 1) {return false;} \n    else if (x == 0) {return true;}\n    else if (x === undefined) {\n      return \"Please give a real number.\"}\n    else {\n      if (x &lt; 0) {return isEven(x + 2)}\n      else return isEven(x - 2);\n    }\n  }\nThe “if” statements simply check if a number is equal to either 1 or 0, and then outputs true or false. That is simple enough, but what if we were to run isEven with a number larger, or smaller, than 1 and 0?\nif (x &lt; 0) {return isEven(x + 2)}\n      else return isEven(x - 2);\nThese statements, after the condition is found to be neither 1 or 0, check if x is either larger or smaller than those two numbers; and then x is returned and isEven is called again. Except, the numbers smaller than 0 are added 2 and the numbers larger than 1 are subtracted 2.\nEventually, whether the number is negative, positive, even or odd, we will get a result. The recursive function will be ran continuously, with x being modified, until a 0 or 1 is found."
+  },
+  {
+    "objectID": "article_docs/Recursion.html#the-output",
+    "href": "article_docs/Recursion.html#the-output",
+    "title": "Recursion",
+    "section": "The Output",
+    "text": "The Output\nLets see this code work.\nThe following inputs, ran using the solution above, each have their outputs labeled with arrows below.\n  console.log(isEven());\n  // -&gt; 'Please give a real number.'\n  console.log(isEven(75));\n  // -&gt; false\n  console.log(isEven(102));\n  // -&gt; true\n  console.log(isEven(-14));\n  // -&gt; true\n  console.log(isEven(-73));\n  // -&gt; false\nWe can see that non-numbers are granted with a request for a real number; and no matter how large or smal the number is, even numbers will be true and odd numbers will be false."
+  },
+  {
+    "objectID": "article_docs/FizzBuzz.html",
+    "href": "article_docs/FizzBuzz.html",
+    "title": "FizzBuzz",
+    "section": "",
+    "text": "The following was completed using JavaScript for CSC 324 at Georgetown College. The problem was found in Eloquent JavaScript ## Intro Have you ever heard of “FizzBuzz”? It is a math problem where each number, from 1 to 100, that is divisable by 3 is replaced by “Fizz”; numbers divisable by 5 by are replaced by “Buzz”. Naturally, all numbers divisable by both are replaced by “FizzBuzz”. It is a popular beginner coding question that has been used in many job interviews.\nWhen I initially solved it for CSC 324, I relied on several “if” statements to get the problem to work (eg. “if iterable is divisable to number, result equals this”). Going back to the problem after some more coding experience, I found a more efficient way to solve FizzBuzz."
+  },
+  {
+    "objectID": "article_docs/FizzBuzz.html#the-solution",
+    "href": "article_docs/FizzBuzz.html#the-solution",
+    "title": "FizzBuzz",
+    "section": "The Solution",
+    "text": "The Solution\nHere is my solution to the problem:\nfor (let i = 1; i &lt;= 100; i++) {\n    let output = ((i % 3 == 0) ? \"Fizz\" : \"\") + ((i % 5 == 0) ? \"Buzz\" : \"\");\n    console.log(output || i);\n  }\nA couple of important things to know is that the first line is called a “for loop”. These loops have three conditions in order to run. The first establishes the iterable, or the object/character to be looped. The second establishes how long the loop will run (while the iterable is less than 100). And lastly, the iterable needs to be added to, otherwise it will always be equal to what we established it to and will never meet the condition needed to stop running the code (or it will create an “infinite loop”).\nThe noticeable part about this code is the use of the questionmark operator (“? |”). This operator creates the needed “if” condition. If the first statement, i % x == 0 (the remainder of iterable and x is equal to 0) is true, then the variable to the left of the “|” is ouputted to the console; if it is false, then the second variable is outputted (or in this case, “output” is set to equal to nothing).\nAnother thing to note is that by setting “output” equal to the sum of these two conditions:\n((i % 3 == 0) ? \"Fizz\" : \"\") + ((i % 5 == 0) ? \"Buzz\" : \"\")\nthen that allows the last line to be a number or a word. “console.log()” simply outputs code to the console. The “||” operator does something similar to the questionmark operator. The console outputs “output” if it has a value(or if it is true); if it does not, then it outputs iterable, as it always has a value."
+  },
+  {
+    "objectID": "article_docs/FizzBuzz.html#the-output",
+    "href": "article_docs/FizzBuzz.html#the-output",
+    "title": "FizzBuzz",
+    "section": "The Output",
+    "text": "The Output\nThe result of this code is…\n1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n16\n17\nFizz\n19\nBuzz\nFizz\n22\n23\nFizz\nBuzz\n26\nFizz\n28\n29\nFizzBuzz\n31\n32\nFizz\n34\nBuzz\nFizz\n37\n38\nFizz\nBuzz\n41\nFizz\n43\n44\nFizzBuzz\n46\n47\nFizz\n49\nBuzz\nFizz\n52\n53\nFizz\nBuzz\n56\nFizz\n58\n59\nFizzBuzz\n61\n62\nFizz\n64\nBuzz\nFizz\n67\n68\nFizz\nBuzz\n71\nFizz\n73\n74\nFizzBuzz\n76\n77\nFizz\n79\nBuzz\nFizz\n82\n83\nFizz\nBuzz\n86\nFizz\n88\n89\nFizzBuzz\n91\n92\nFizz\n94\nBuzz\nFizz\n97\n98\nFizz\nBuzz"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site"
+    "text": "Hi, thanks for stopping by.\nMy name is Isaac Morris. I am a christian. I am a web-design and religion double major at Georgetown College. I am apart of Georgetown’s independant honors program; and while here at college, I ran cross country a couple of times. Some fun facts about me: one time I kicked a shark (accidentally) and I also rehabilitated birds of prey at a nature center for a few years.\nMy personal goal is to live the life God intends for me, loving Him and loving others. My secondary goal is to secure a job as a web designer. I hope that this ‘warmup-website,’ which was created for CSC 324 at Georgetown College, can assist me in finding a job in my field of study so that I can achieve these goals."
   }
 ]

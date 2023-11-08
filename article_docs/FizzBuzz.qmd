@@ -1,0 +1,138 @@
+---
+title: "FizzBuzz"
+image: /article_docs/images/FIZZBUZZ.pdf
+---
+The following was completed using JavaScript for CSC 324 at Georgetown College. The problem was found in [Eloquent JavaScript](https://eloquentjavascript.net)
+## Intro
+Have you ever heard of "FizzBuzz"? It is a math problem where each number, from 1 to 100, that is divisable by 3 is replaced by "Fizz";  numbers divisable by 5 by are replaced by "Buzz". Naturally, all numbers divisable by both are replaced by "FizzBuzz". It is a popular beginner coding question that has been used in many job interviews.
+
+<blockquote>
+The "FizzBuzz test" is an interview question designed to help filter out the 99.5% of programming job candidates who can't seem to program their way out of a wet paper bag. ([wiki.c2.com](http://wiki.c2.com/?FizzBuzzTest=))
+</blockquote>
+
+When I initially solved it for CSC 324, I relied on several "if" statements to get the problem to work (eg. "if iterable is divisable to number, result equals this"). Going back to the problem after some more coding experience, I found a more efficient way to solve FizzBuzz.
+
+## The Solution
+Here is my solution to the problem:
+
+```
+for (let i = 1; i <= 100; i++) {
+    let output = ((i % 3 == 0) ? "Fizz" : "") + ((i % 5 == 0) ? "Buzz" : "");
+    console.log(output || i);
+  }
+```
+
+A couple of important things to know is that the first line is called a "for loop". These loops have three conditions in order to run. The first establishes the iterable, or the object/character to be looped. The second establishes how long the loop will run (while the iterable is less than 100). And lastly, the iterable needs to be added to, otherwise it will always be equal to what we established it to and will never meet the condition needed to stop running the code (or it will create an "infinite loop").
+
+The noticeable part about this code is the use of the questionmark operator ("? | "). This operator creates the needed "if" condition. If the first statement, i % x == 0 (the remainder of iterable and x is equal to 0) is true, then the variable to the left of the "|" is ouputted to the console; if it is false, then the second variable is outputted (or in this case, "output" is set to equal to nothing).
+
+Another thing to note is that by setting  "output" equal to the sum of these two conditions:
+```
+((i % 3 == 0) ? "Fizz" : "") + ((i % 5 == 0) ? "Buzz" : "")
+```
+then that allows the last line to be a number or a word. "console.log()" simply outputs code to the console. The "||" operator does something similar to the questionmark operator. The console outputs "output" if it has a value(or if it is true); if it does not, then it outputs iterable, as it always has a value.
+
+## The Output
+The result of this code is...
+```
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
+Fizz
+22
+23
+Fizz
+Buzz
+26
+Fizz
+28
+29
+FizzBuzz
+31
+32
+Fizz
+34
+Buzz
+Fizz
+37
+38
+Fizz
+Buzz
+41
+Fizz
+43
+44
+FizzBuzz
+46
+47
+Fizz
+49
+Buzz
+Fizz
+52
+53
+Fizz
+Buzz
+56
+Fizz
+58
+59
+FizzBuzz
+61
+62
+Fizz
+64
+Buzz
+Fizz
+67
+68
+Fizz
+Buzz
+71
+Fizz
+73
+74
+FizzBuzz
+76
+77
+Fizz
+79
+Buzz
+Fizz
+82
+83
+Fizz
+Buzz
+86
+Fizz
+88
+89
+FizzBuzz
+91
+92
+Fizz
+94
+Buzz
+Fizz
+97
+98
+Fizz
+Buzz
+```
