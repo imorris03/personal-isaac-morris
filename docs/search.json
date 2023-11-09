@@ -18,7 +18,7 @@
     "href": "article_docs/FizzBuzz.html",
     "title": "FizzBuzz",
     "section": "",
-    "text": "The following was completed using JavaScript for CSC 324 at Georgetown College. The problem was found in Eloquent JavaScript ## Intro Have you ever heard of “FizzBuzz”? It is a math problem where each number, from 1 to 100, that is divisable by 3 is replaced by “Fizz”; numbers divisable by 5 by are replaced by “Buzz”. Naturally, all numbers divisable by both are replaced by “FizzBuzz”. It is a popular beginner coding question that has been used in many job interviews.\nWhen I initially solved it for CSC 324, I relied on several “if” statements to get the problem to work (eg. “if iterable is divisable to number, result equals this”). Going back to the problem after some more coding experience, I found a more efficient way to solve FizzBuzz."
+    "text": "The following was completed using JavaScript for CSC 324 at Georgetown College. The problem was found in Eloquent JavaScript."
   },
   {
     "objectID": "article_docs/FizzBuzz.html#the-solution",
@@ -75,5 +75,12 @@
     "title": "Articles",
     "section": "",
     "text": "These articles showcase some Javascript assignments I have completed for CSC 324 at Georgetown College. They can be found in Eloquent Javascript. They were picked for this website because of unique solutions for the problems.\n\n\n\n\n\n\n\n\n\n\nFizzBuzz\n\n\n\n\n\n\n\n\n\n\n\n\n\nRecursion\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "article_docs/FizzBuzz.html#intro",
+    "href": "article_docs/FizzBuzz.html#intro",
+    "title": "FizzBuzz",
+    "section": "Intro",
+    "text": "Intro\nHave you ever heard of “FizzBuzz”? It is a math problem where each number, from 1 to 100, that is divisable by 3 is replaced by “Fizz”; numbers divisable by 5 by are replaced by “Buzz”. Naturally, all numbers divisable by both are replaced by “FizzBuzz”. It is a popular beginner coding question that has been used in many job interviews.\n\nThe “FizzBuzz test” is an interview question designed to help filter out the 99.5% of programming job candidates who can’t seem to program their way out of a wet paper bag. (wiki.c2.com)\n\nWhen I initially solved it for CSC 324, I relied on several “if” statements to get the problem to work (eg. “if iterable is divisable to number, result equals this”). Going back to the problem after some more coding experience, I found a more efficient way to solve FizzBuzz."
   }
 ]

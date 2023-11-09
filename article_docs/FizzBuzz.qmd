@@ -2,7 +2,8 @@
 title: "FizzBuzz"
 image: /article_docs/images/FIZZBUZZ.pdf
 ---
-The following was completed using JavaScript for CSC 324 at Georgetown College. The problem was found in [Eloquent JavaScript](https://eloquentjavascript.net)
+The following was completed using JavaScript for CSC 324 at Georgetown College. The problem was found in [Eloquent JavaScript](https://eloquentjavascript.net).
+
 ## Intro
 Have you ever heard of "FizzBuzz"? It is a math problem where each number, from 1 to 100, that is divisable by 3 is replaced by "Fizz";  numbers divisable by 5 by are replaced by "Buzz". Naturally, all numbers divisable by both are replaced by "FizzBuzz". It is a popular beginner coding question that has been used in many job interviews.
 
