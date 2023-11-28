@@ -2,3 +2,4 @@
 title: "Website Enhancement"
 ---
 
+The biggest enhancement to this website is definitely the [comments](comment.qmd) page. It allows for easy and engaging interaction between me and other people who have github accounts. To store the comments, I had to link my repository by using [utterances](https://utteranc.es).
