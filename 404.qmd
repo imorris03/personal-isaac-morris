@@ -8,6 +8,6 @@
 
 </style>
 
-<img src="/images/404.pdf" class="center">
+<img src="/images/404.jpg" class="center">
 
-[Click Here To Go Back To Home](index.qmd)
+[Click Here To Go Back To Home](home.qmd)

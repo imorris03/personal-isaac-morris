@@ -1,11 +1,11 @@
 ---
 title: "Comment"
+comments:
+        utterances:
+                repo: imorris03/warmup-isaac-morris
+                issue-term: comment.qmd
+                theme: dark-blue
 ---
 
 This page is dedicated for comments. Feel free to offer critique, give appraisal, or just comment your favorite animal. To leave a comment, sign in with a with your [github](https://github.com) account.
 
-<script src="https://utteranc.es/client.js"
-        repo="imorris03/warmup-isaac-morris"
-        issue-term="comment.qmd"
-        async>
-</script>

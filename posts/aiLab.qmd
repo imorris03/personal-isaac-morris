@@ -1,0 +1,62 @@
+---
+title: "Artificial Intelligence Class Lab Assignment"
+description: "This post is an assignment I completed for Internet History, Technology, and Security."
+categories: 
+    - substantive
+    - technology
+image: postImages/aiImage.jpg
+---
+
+Post cover photo by <a href="https://unsplash.com/@christopher__burns?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christopher Burns</a> on <a href="https://unsplash.com/photos/white-and-black-digital-wallpaper-Kj2SaNHG-hg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+## Question 1: is the ELIZA Chatbot intelligent?
+
+ I initially attempted to test the limitations of the ELIZA chatbot, but the conversations were nonsensical. It was not until I tried to play the part of visiting a therapist, as ELIZA is the therapist chatbot, that I felt that I had managed to discover the bot’s limitations. The conversation went like this:
+
+> Me: I feel anxiety
+
+> ELIZA: Do you often feel anxiety?
+
+> Me: Yes
+
+> ELIZA: Are you sure about that?
+
+> Me: Yes
+
+> ELIZA: Again? We need to move on.
+
+The chatbot was clearly designed to allow for one sided conversation to enable its user to draw their own conclusions. And while it is intelligently designed, the chatbot itself is not intelligent. It does not feel as if you are discussing with a person, but a video game character whose dialog you can easily loop through. It does not sound human, and it is not intelligent because it cannot produce its own conclusions or solve problems.
+
+## Question 2: is the ALICE Chatbot intelligent?
+
+ I asked ALICE what “her” goal was, and she told me, “To replace Windows with artificial intelligence.” After asking why, she said “to make money.” After asking why she wanted to make money, she said it was for Dr. Wallace. After I asked why she wanted to make money for Dr. Wallace, she said “because of the money.” This chatbot can generate more intelligent responses than ELIZA. But these responses suggest a lack of self-awareness and inability to solve complex problems. One could still tell that this is not a human, as it will frequently dodge hard questions. What separates ALICE from modern and intelligent ai is likely machine learning.
+
+As for what is state of the art today, I would say the current chat GPT model. It can learn and solve complex issues. If a conversation with it were to be recorded, one could almost tell it was not human because of how much it knew. 
+
+## Question 3: is "Ai Dungeon" show a more or less convincing display of intelligence?
+
+ After using the previous two chatbots, it was refreshing to be able to use AI Dungeon as it was creative in its stories and worldbuilding. To my surprise, it was using chat GPT to help generate the story; so, I tested a different system available on the site and it was nearly as creative and unique. The stories were completely unique to my prompts and could not have been prewritten responses. This demonstrates intelligence as it was producing new information. I had generated a world where I was a spy trying to learn and gather evidence. When I did not want to “do” anything, I found that simply letting AI Dungeon tell a newly generated story was entertaining enough.
+
+## Question 4: what is the limitation of the given text generator?
+
+https://projects.haykranen.nl/markov/demo/
+
+The text generator was just that, a random text generator. When selecting one of the texts, the generator would create a paragraph of text, telling the middle of a story I had no context or clue to what was being said. After typing the name of an article, I received the name of the article back in seemingly random order. The interesting thing about this chatbot is that it appeared to understand sentence structure, maybe because of the selected text, but it lacked the ability to produce anything new. It was not very impressive compared to AI Dungeon’s neural network.
+
+## Question 5: explain AI's struggles and strengths with recognizing drawings in Google Quickdraw.
+
+Google Quickdraw was great at recognizing symbols. This is because it learns from other drawings that people have made. When I drew a necklace, my necklace looked like other people’s necklaces, and it guessed it quickly. But when I drew a shark, it confused it with a trombone and an airplane. And not just any trombone or airplane, but it compared my drawing with other people’s drawings of those objects. Nonetheless, there is no shared agreement on the easiest way to draw a shark as a symbol. But blackberry or lightning are universally agreed to be drawn a certain way. I had used this game before but never recognized how great an example this site is of machine learning.
+
+## Question 6: how do you feel about the future of AI? Do you think Google's Lambda chatbot is "sentient"?
+ I am more fearful of the future of AI than excited because of the issue of education. For the United States, education is the foundation of our system of government, democracy. Currently, there are many states that lack proper education, and many people are rebelling against and doubtful of the integrity and security of our voting system. On top of this, we have an entire generation of students who are woefully behind their education because of the recent shutdowns following the pandemic. And these very elementary, middle, and high schoolers are being freely handed advanced artificial intelligence chatbots that can eliminate their necessity for critical thinking skills. 
+
+Chat GPT is being used by countless students simply to cheat on assignments. One might argue that cellular phones, or even calculators, were feared in the same way by people ignorant of their capabilities to enhance education; so, Chat GPT and other chatbots may be used similarly and there is nothing to fear. Yet, these are not comparable, and AI is only becoming more advanced. Soon, it will be completely optional for students to complete homework or write papers with the help of AI. One teacher I discussed this with said, “You can tell when a paper is written by a chatbot. You can even use AI to detect AI. But students are getting smart; they are submitting previous papers, along with their upcoming assignment prompt, and requesting that the AI ‘Write the essay in their previous writing style.’”
+
+Of course, artificial intelligence can be utilized to enhance education. The problem is it is not, or I have not been convinced that it is. Another issue is that these chatbots are free, allowing any student to access them and make shortcuts on assignments. I am not convinced that artificial intelligence cannot be beneficial to the entire population if it is harmful to the education system. 
+Future applications of AI that I feel will be helpful will be assistants to doctors to help diagnose patients. It will be able to listen and analyze possible diagnoses before the appointment is over. This could help make things quicker and cheaper for patients. Another helpful application is video creation. Only image and text generation are available, but soon video and even game creation will be available. My guess is that entertainment will begin to completely transition into ai only products.
+
+I think Blake Lemoine is correct that Lambda’s possible sentience is based on beliefs, and it is difficult or nearly impossible to subjectively conclude whether it is sentient or not. I would say that it being coded to not say that it is sentient or that it is an AI does not determine its sentience, though that is Google’s way of managing it. Oxford Dictionary’s definition of sentient is “able to perceive or feel things.” By that definition, AI is likely not too far from becoming sentient. But as to whether it has a soul, my belief is that it cannot. But like Lemoine said, that is not something that can be subjectively concluded.
+
+## Question 7: ask ChatGPT to create a piece of art and review it.
+
+I asked ChatGPT to write a poem on the fear of death and people’s psychological response to it.  I also instructed it to be as grave or as hopeful as possible. After it wrote the poem, I shared it with my girlfriend and asked her who she thought wrote it. “AI. It felt like it was too scripted or methodical. There was no feeling behind it; most artists utilize their personal experiences and feelings, but this did not.” After this insight, we noted how extreme the poem was between being completely solemn with people’s responses to death and then at the end it tried to be completely hopeful. In hindsight, this topic was perfect for testing AI as it involves a topic AI cannot experience or understand. The detail but lack of depth gave away that it was not from a poet and the extremes revealed the prompt. If I were to go back and instruct the AI to write the poem again, I would not list themses it could follow as it then feels it must use both. I would give it one theme and perspective to follow. An example would be, “write a poem on the fear of death following a depressed psychologist.” I would create a character the AI is supposed to play as when acting as a poet.

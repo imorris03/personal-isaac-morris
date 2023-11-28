@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>isaac morris warmup website - Welcome</title>
+<title>index</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -59,7 +61,39 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 3,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -71,8 +105,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">isaac morris warmup website</span>
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/wwLogoNew.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -80,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Home</span></a>
@@ -94,20 +128,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Articles</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./postsIndex.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./comment.html" rel="" target="">
  <span class="menu-text">Comment</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/imorris03" rel="" target=""><i class="bi bi-github" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="mailto:isaacm@georgetowncollege.edu" rel="" target=""><i class="bi bi-envelope" role="img">
-</i> 
- <span class="menu-text"></span></a>
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
@@ -117,38 +143,218 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Welcome</h1>
+
+
+<div class="column-screen">
+<p><img src="./images/heroImage.png" class="img-fluid"></p>
+</div>
+
+<style>
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.button {
+    color: black;
+    margin-bottom: 50px;
+    background-color: #00FFFF;
+    border: 2px solid #e7e7e7;
+    padding: 8px 16px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.3s;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+}
+
+.button:hover {
+    color: #00FFFF;
+    background-color: black;
+}
+
+.button:active {
+    background-color: black;
+    transform: translateY(4px);
+}
+
+.button-container {
+    display: inline-block;
+}
+</style>
+
+
+
+    <div class="content-container">
+        <div class="button-container">
+        <p>Welcome to my first website. I have created this using Quarto, and did so for CSC 324 at Georgetown College. I hope to use this website to showcase some of my work. Feel free to leave a comment on the <a href="./comment.html">comments</a> page for any critique or questions.</p>
+        <a class="button" href="./about.html">More About Me</a>
+        <a class="button" href="./postsIndex.html">Blog Posts</a>
+        </div>
+    </div>
+
+
+<p>My Recent Blogs:</p>
+<div id="sample-listings">
+
 </div>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="substantive,technology" data-listing-file-modified-sort="1701197632994" data-listing-reading-time-sort="8">
+<a href="./posts/aiLab.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/postImages/aiImage.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Artificial Intelligence Class Lab Assignment
+</h5>
+<div class="card-text listing-description">
+This post is an assignment I completed for Internet History, Technology, and Security.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
 
-</header>
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="technology,substantive" data-listing-date-sort="1698811200000" data-listing-file-modified-sort="1701177051838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<a href="./posts/aiPost.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Aritificial Intelligence &amp; the Classroom
+</h5>
+<div class="card-text listing-description">
+A post to desmistyify artificial intelligence for academic use.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
 
-<p>Welcome to my first website. I am creating this using Quarto for CSC 324 at Georgetown College.</p>
-<p><a href="./about.html">Click here to learn more about me.</a></p>
+</div>
+<div class="listing-date">
+Nov 1, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="fake posts" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1701176963292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./posts/fakePost.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Lorem Ipsum
+</h5>
+<div class="card-text listing-description">
+Nec dui nunc mattis enim ut tellus.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
 
+</div>
+<div class="listing-date">
+Dec 31, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="fake posts" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1701197612914" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="./posts/fakePost2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/postImages/nihilismPostPic.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Complete Beginner’s Guide to Understanding Nihilism
+</h5>
+<div class="card-text listing-description">
+A fake post to uncover what nihilism is really about.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
 
+</div>
+<div class="listing-date">
+Dec 31, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="fake posts" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1701176958620" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="./posts/fakePost3.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+How to get Consistent Sleep and Why it Matters
+</h5>
+<div class="card-text listing-description">
+Even missing one hour of sleep a night can cause major sleep deprivation. Here is how to prevent that from happening.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
 
-</main> <!-- /main -->
+</div>
+<div class="listing-date">
+Dec 31, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -386,4 +592,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-</body></html>
+</body><!-- credit to chatGPT for helping me with chaning the button tag to an a (<a>) tag so that the href would work and for showing me how to make a content-container so that the top of the hero image was not cut off when I added the posts at the bottom. I do not know why that happened, but the content container fixed it.
+
+also credit to 
+
+https://www.w3schools.com/css/css3_buttons.asp
+
+for teaching me how to design buttons.--></html>

@@ -1,7 +1,95 @@
 ---
-title: "Welcome"
+listing:
+    page-size: 3
+    contents: posts
+    sort: "date desc"
+    type: grid
+    categories: false
+    feed: true
+    sort-ui: false
+    filter-ui: false
+page-layout: full
+title-block-banner: false
 ---
 
-Welcome to my first website. I am creating this using Quarto for CSC 324 at Georgetown College.
+::: {.column-screen}
+![](/images/heroImage.png)
+:::
 
-[Click here to learn more about me.](about.qmd)  
+```{=html}
+<head>
+<style>
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.button {
+    color: black;
+    margin-bottom: 50px;
+    background-color: #00FFFF;
+    border: 2px solid #e7e7e7;
+    padding: 8px 16px;
+    width: 150px;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.3s;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+}
+
+.button:hover {
+    color: #00FFFF;
+    background-color: black;
+}
+
+.button:active {
+    background-color: black;
+    transform: translateY(4px);
+}
+
+.button-container {
+    display: inline-block;
+}
+</style>
+</head>
+
+<body>
+    <div class="content-container">
+        <div class="button-container">
+        <p>Welcome to my first website. I have created this using Quarto, and did so for CSC 324 at Georgetown College. I hope to use this website to showcase some of my work. Feel free to leave a comment on the <a href="comment.qmd">comments</a> page for any critique or questions.</p>
+        <a class="button" href="about.qmd">More About Me</a>
+        <a class="button" href="postsIndex.qmd">Blog Posts</a>
+        </div>
+    </div>
+</body>
+```
+<!-- credit to chatGPT for helping me with chaning the button tag to an a (<a>) tag so that the href would work and for showing me how to make a content-container so that the top of the hero image was not cut off when I added the posts at the bottom. I do not know why that happened, but the content container fixed it.
+
+also credit to 
+
+https://www.w3schools.com/css/css3_buttons.asp
+
+for teaching me how to design buttons.-->
+
+My Recent Blogs:
+
+::: {#sample-listings}
+:::

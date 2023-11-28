@@ -1,15 +1,17 @@
 ---
 title: "About Me"
+about:
+    id: hero-heading
+    template: trestles
+    image: images/self_image.jpg
+    links:
+      - icon: github
+        href: https://github.com/imorris03
+      - icon: linkedin
+        href: https://www.linkedin.com/in/isaac-morris-7a6b7823a
+      - icon: envelope
+        href: mailto:isaacm@georgetowncollege.edu
 ---
-
-
-<img style="float: right; margin: 0px 0px 15px 15px;" src="images/self_image.pdf" width="400" />
-<!-- 
-credit for the code:
-https://www.inmotionhosting.com/support/website/website-design/align-float-images-css/
-credit for learning to make comments:
-Chat GPT
--->
 
 Hi, thanks for stopping by.  
 

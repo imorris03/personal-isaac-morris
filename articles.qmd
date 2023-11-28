@@ -3,8 +3,7 @@ title: "Articles"
 listing:
   id: sample-listings
   contents: article_docs
-  type: grid
-  fields: [image, title]
+  type: table
 ---
 
 These articles showcase some Javascript assignments I have completed for CSC 324 at Georgetown College. They can be found in [Eloquent Javascript](https://eloquentjavascript.net). They were picked for this website because of unique solutions for the problems.

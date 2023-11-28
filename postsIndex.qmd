@@ -1,0 +1,15 @@
+---
+title: "Isaac's Blog"
+listing:
+    contents: posts
+    sort: "date desc"
+    type: default
+    categories: true
+    feed: true
+    sort-ui: false
+    filter-ui: false
+page-layout: full
+title-block-banner: false
+---
+
+Welcome to my blog. Here you can find a variety of posts I have made for school assignments.

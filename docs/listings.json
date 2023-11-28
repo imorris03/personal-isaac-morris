@@ -3,7 +3,42 @@
     "listing": "/articles.html",
     "items": [
       "/article_docs/FizzBuzz.html",
-      "/article_docs/Recursion.html"
+      "/article_docs/Recursion.html",
+      "/article_docs/Enhancement.html"
+    ]
+  },
+  {
+    "listing": "/posts/index.html",
+    "items": []
+  },
+  {
+    "listing": "/postsIndex.html",
+    "items": [
+      "/posts/aiLab.html",
+      "/posts/aiPost.html",
+      "/posts/fakePost.html",
+      "/posts/fakePost2.html",
+      "/posts/fakePost3.html"
+    ]
+  },
+  {
+    "listing": "/home.html",
+    "items": [
+      "/posts/aiLab.html",
+      "/posts/aiPost.html",
+      "/posts/fakePost.html",
+      "/posts/fakePost2.html",
+      "/posts/fakePost3.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/aiLab.html",
+      "/posts/aiPost.html",
+      "/posts/fakePost.html",
+      "/posts/fakePost2.html",
+      "/posts/fakePost3.html"
     ]
   }
 ]
