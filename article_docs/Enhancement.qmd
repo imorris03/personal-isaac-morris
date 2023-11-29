@@ -1,5 +1,14 @@
 ---
 title: "Website Enhancement"
 ---
+It is hard to pinpoint one single feature of this website as being a notable large enhacncement. Part of this difficulty is in the nature of the work I put in to its design. Being a website design major, I focused my attention on the layout and aesthetic of the homepage rather than building interactive graphs. 
 
-The biggest enhancement to this website is definitely the [comments](comment.qmd) page. It allows for easy and engaging interaction between me and other people who have github accounts. To store the comments, I had to link my repository by using [utterances](https://utteranc.es).
+But the first feature that comes to mind would be the [comments](comment.qmd) page. It was a very unique addition that allows for easy interaction between other users and myself on this site. The only issue is that it was very easy to add and did not require much work on my part, thanks to [utterances](https://utteranc.es). 
+
+Of course, the most notable enhancement to the website is the homepage. This was not one singular task, but many. To begin, I chose black, white, and light blue as my color pallete. I then went to Adobe Illustrator and traced out the line art drawing that now serves as the website's hero image. I was really wanting to include line art into the website as I have seen it incorporated into other websites and it typically maintains very sleek design. The bold text helps balance the color while also turning the viewers attention to the center of the page. 
+
+Staying in Illustrator, I created the website's logo. I afterwards moved on to the buttons. I used [W3 Schools](https://www.w3schools.com/css/css3_buttons.asp) as a resource for creating brilliant buttons with shadows behind them. To keep everything organized, I had ChatGPT help me create containers. The blog posts came after and the last thing I created was the resume document. This was tricky because I had to create individual table elements and rows in order for the text to sit perfectly next to the image. I also reused some of the same code from the buttons onto the resume picture.
+
+
+
+

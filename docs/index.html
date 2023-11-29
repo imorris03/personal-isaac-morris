@@ -158,6 +158,7 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="./images/heroImage.png" class="img-fluid"></p>
 </div>
 
+
 <style>
 body {
     display: flex;
@@ -208,6 +209,20 @@ body {
 .button-container {
     display: inline-block;
 }
+
+#resume {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    background-color: #00FFFF;
+    border: 2px solid #e7e7e7;
+    transition-duration: 0.3s;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+}
+
 </style>
 
 
@@ -219,8 +234,22 @@ body {
         <a class="button" href="./postsIndex.html">Blog Posts</a>
         </div>
     </div>
+<p></p><table>
+    <tbody><tr>
+        <td id="td">
+    <p><a href="./images/resume.png"><img id="resume" src="images/resume.png" width="250px" height="250px"> </a></p></td><td>Here is a copy of my resume. I am currently studying website design at Georgetown College and am apart of their Independent Honors Program. I have some experience using Javascript and R. My tools include Adobe software applications like Photoshop and Illustrator.
+        </td>
+    
+    
+    </tr>
+</tbody></table>
+<!-- credit to chatGPT for helping me with chaning the button tag to an a (<a>) tag so that the href would work and for showing me how to make a content-container so that the top of the hero image was not cut off when I added the posts at the bottom. I do not know why that happened, but the content container fixed it.
 
+also credit to 
 
+https://www.w3schools.com/css/css3_buttons.asp
+
+for teaching me how to design buttons.-->
 <p>My Recent Blogs:</p>
 <div id="sample-listings">
 
@@ -231,7 +260,7 @@ body {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="substantive,technology" data-listing-file-modified-sort="1701197632994" data-listing-reading-time-sort="8">
+<div class="g-col-1" data-index="0" data-categories="substantive,technology" data-listing-file-modified-sort="1701204577553" data-listing-reading-time-sort="8">
 <a href="./posts/aiLab.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -253,10 +282,12 @@ This post is an assignment I completed for Internet History, Technology, and Sec
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="technology,substantive" data-listing-date-sort="1698811200000" data-listing-file-modified-sort="1701177051838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
+<div class="g-col-1" data-index="1" data-categories="technology,substantive" data-listing-date-sort="1698811200000" data-listing-file-modified-sort="1701213957187" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
 <a href="./posts/aiPost.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img src="./images/classroom.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Aritificial Intelligence &amp; the Classroom
@@ -276,10 +307,12 @@ Nov 1, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="fake posts" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1701176963292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="2" data-categories="fake posts" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1701214243692" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./posts/fakePost.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img src="./images/alphabet.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Lorem Ipsum
@@ -324,10 +357,12 @@ Dec 31, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="fake posts" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1701176958620" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="4" data-categories="fake posts" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1701214051994" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./posts/fakePost3.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<p class="card-img-top">
+<img data-src="./images/alarmClock.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 How to get Consistent Sleep and Why it Matters
@@ -592,10 +627,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-</body><!-- credit to chatGPT for helping me with chaning the button tag to an a (<a>) tag so that the href would work and for showing me how to make a content-container so that the top of the hero image was not cut off when I added the posts at the bottom. I do not know why that happened, but the content container fixed it.
-
-also credit to 
-
-https://www.w3schools.com/css/css3_buttons.asp
-
-for teaching me how to design buttons.--></html>
+</body></html>

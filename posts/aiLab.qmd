@@ -11,6 +11,8 @@ Post cover photo by <a href="https://unsplash.com/@christopher__burns?utm_conten
 
 ## Question 1: is the ELIZA Chatbot intelligent?
 
+https://web.njit.edu/~ronkowit/eliza.html
+
  I initially attempted to test the limitations of the ELIZA chatbot, but the conversations were nonsensical. It was not until I tried to play the part of visiting a therapist, as ELIZA is the therapist chatbot, that I felt that I had managed to discover the bot’s limitations. The conversation went like this:
 
 > Me: I feel anxiety
@@ -28,6 +30,8 @@ Post cover photo by <a href="https://unsplash.com/@christopher__burns?utm_conten
 The chatbot was clearly designed to allow for one sided conversation to enable its user to draw their own conclusions. And while it is intelligently designed, the chatbot itself is not intelligent. It does not feel as if you are discussing with a person, but a video game character whose dialog you can easily loop through. It does not sound human, and it is not intelligent because it cannot produce its own conclusions or solve problems.
 
 ## Question 2: is the ALICE Chatbot intelligent?
+
+https://www.pandorabots.com/pandora/talk?botid=b8d616e35e36e881
 
  I asked ALICE what “her” goal was, and she told me, “To replace Windows with artificial intelligence.” After asking why, she said “to make money.” After asking why she wanted to make money, she said it was for Dr. Wallace. After I asked why she wanted to make money for Dr. Wallace, she said “because of the money.” This chatbot can generate more intelligent responses than ELIZA. But these responses suggest a lack of self-awareness and inability to solve complex problems. One could still tell that this is not a human, as it will frequently dodge hard questions. What separates ALICE from modern and intelligent ai is likely machine learning.
 

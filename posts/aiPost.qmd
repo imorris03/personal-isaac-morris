@@ -2,10 +2,14 @@
 title: "Aritificial Intelligence & the Classroom"
 description: "A post to desmistyify artificial intelligence for academic use."
 date: "November 2023"
+image: /images/classroom.jpg
 categories: 
     - technology
     - substantive
 ---
+
+Photo by <a href="https://unsplash.com/@2ykang?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">2y.kang</a> on <a href="https://unsplash.com/photos/an-empty-classroom-with-wooden-desks-and-windows-dFohf_GUZJ0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
 ## A Revolutionary Issue
 
 The education landscape has experienced drastic changes over the last few years. Following the covid shutdowns, many schools have adopted online resources to engage their students. These changes included online classes, assignments, tests, and projects. But several of these adaptations lack permanence with the free release of artificial intelligence chatbots; how can online quizzes or tests exist when intelligent, online bots capable of reading and answering complex questions can exist a tab away? Students, who are very aware of such technologies, are enabled to use ai to cheat on schoolwork (Mineo). This new growth of academic cheating is not limited to online work, but to any kind of homework in general.

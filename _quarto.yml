@@ -5,6 +5,7 @@ project:
 website:
   site-path: "/personal-isaac-morris/"
   page-navigation: true
+  title: ""
   navbar:
     background: black
     foreground: info
