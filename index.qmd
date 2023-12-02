@@ -96,7 +96,7 @@ body {
 <table>
     <tr>
         <td id = "td">
-    <p><a href="/images/resume.png"><img id = "resume" src = images/resume.png width = 250px height = 250px> </a><td>Here is a copy of my resume. I am currently studying website design at Georgetown College and am apart of their Independent Honors Program. I have some experience using Javascript and R. My tools include Adobe software applications like Photoshop and Illustrator.
+    <p><a href="/images/resume.png"><img id = "resume" src = images/resume.png width = 250px height = 250px> </a><td>Here is a copy of my resume. I am currently studying website design at Georgetown College and am involved in their Independent Honors Program. I have some experience using Javascript and R. My tools include Adobe software applications like Photoshop and Illustrator.
         </td>
     </td>
     </p>
